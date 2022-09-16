@@ -1,0 +1,5 @@
+l = int(input("A largura da parede e : "))
+a = int(input("A altura da parede e : "))
+print ("Sua parede tem a dimensão de {}m x {}m e sua area {}m²".format(l,a,(l*a)))
+t = ((l*a)/2)
+print ("Para pintar essa parede voce precisara de {:.0f}L de tinta".format(t))
